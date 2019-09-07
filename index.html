@@ -11,7 +11,7 @@
 <body>
 <nav>
   <div class="topbar">
-<a class="mobilemenu" href="#" style="float: left;">☰</a>
+<button class="mobilemenu" style="float: left;">☰</button>
   <h2 class="wordmarkmobile">Paul Narvas</h2>
   </div>
 </nav>
@@ -34,5 +34,24 @@
     <h1 class="big-head-title">Hi, My Name Is Paul 👋</h1>
   </div>
 </div>
+
+<script>
+$(function() {
+  var menuVisible = false;
+  $('.mobilemenu').click(function() {
+    if (menuVisible) {
+      $('.sidebar').css({'display':'none'});
+      menuVisible = false;
+      return;
+    }
+    $('.sidebar').css({'display':'block'});
+    menuVisible = true;
+  });
+  $('.sidebar').click(function() {
+    $(this).css({'display':'none'});
+    menuVisible = false;
+  });
+});
+</script>
 </body>
 </html>
