@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Source+Serif+Pro&display=swap');
+
+h1 {
+  line-height: 1;
+  margin-top: 0;
+}
+
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: #383838;
+  visibility: visible;
+  position: fixed;
+}
+
+.content {
+  padding-left: 0;
+}
+
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #383838;
+  color: white;
+  z-index: 10;
+  position: fixed;
+  visibility: hidden;
+}
+
+
+.top-half {
+  text-align: center;
+}
+a.mobilemenu {
+  text-decoration: none;
+  height: 100%;
+  width: auto;
+  background-color: #262626;
+  font-size: 210%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+a.mobilemenu:hover {
+  background-color: black;
+  transition: 0.2s linear;
+}
+
+h2.wordmark {
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 0.5;
+}
+
+h2.wordmarkmobile {
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 0.5;
+  padding-right: 30px;
+  text-align: right;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Serif Pro';
+  background-color: #141414;
+  color: white;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li a {
+  display: block;
+  width: 100%;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul.menu li a:hover{
+  background-color: #262626;
+  transition: linear 0.2s;
+}
+
+li a.active{
+  background-color: #262626;
+}
+
+.big-head {
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  background-color: #454545;
+}
+
+.big-head-title {
+  padding-top: 170px;
+  font-size: 350%;
+  padding-left: 30px;
+  font-family: 'Lexend Deca';
+  padding-bottom: 25px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  opacity: 1;
+}
